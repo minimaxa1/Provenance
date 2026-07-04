@@ -6,7 +6,7 @@
 
 
 
-[!\[License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) [!\[npm](https://img.shields.io/badge/npx-prov-black)](https://npmjs.com/package/prov)
+[!\[License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) https://www.npmjs.com/package/@vektormemory/prov
 
 Prov stamps proprietary headers into your source, snapshots your codebase into a Merkle-tree manifest bound to your git commit, and anchors that manifest with two independent timestamp authorities — RFC 3161 (FreeTSA) and OpenTimestamps (Bitcoin). If you ever need to prove what your code looked like at a point in time, this is the evidence trail.
 

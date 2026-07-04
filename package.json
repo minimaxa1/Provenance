@@ -1,0 +1,32 @@
+{
+  "name": "@vektormemory/prov",
+  "version": "1.1.2",
+  "description": "Cryptographic proof-of-authorship tooling for any codebase. Merkle-tree manifests, git commit binding, dual RFC 3161 + OpenTimestamps anchoring.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "prov": "./provenance.mjs"
+  },
+  "main": "provenance.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "prepack": "node provenance.mjs stamp add && node provenance.mjs notice create && node provenance.mjs manifest create && node provenance.mjs timestamp create"
+  },
+  "dependencies": {
+    "merkletreejs": "^0.5.2"
+  },
+  "files": [
+    "provenance.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vektor-Memory/provenance.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

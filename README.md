@@ -25,8 +25,7 @@ Prov solves all four: config-driven, Merkle-provable, dual-anchored, and CI-chec
 ## Install
 
 ```
-npm install -g prov
-npm i @vektormemory/prov
+npm install -g @vektormemory/prov
 # or run without installing
 npx prov --help
 ```
